@@ -4,6 +4,11 @@
 [![Status](https://img.shields.io/badge/STATUS-ACTIVE_BUILD-0f3460?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/OCEAN-BRAIN)
 [![Brain](https://img.shields.io/badge/BRAIN-RIGHT_HEMISPHERE-1a6b9a?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/AGI)
 
+[![CORPUS CALLOSUM](https://img.shields.io/badge/MASTER-AGI_CORPUS_CALLOSUM-e94560?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/AGI)
+[![LEFT BRAIN](https://img.shields.io/badge/LEFT_BRAIN-AION--BRAIN-6b3fa0?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/AION-BRAIN)
+[![RIGHT BRAIN](https://img.shields.io/badge/RIGHT_BRAIN-OCEAN--BRAIN-1a6b9a?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/OCEAN-BRAIN)
+
+
 ---
 
 > *"The surface can be mapped. The ocean has to be descended into.*
