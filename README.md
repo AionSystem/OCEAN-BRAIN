@@ -1,5 +1,10 @@
 # OCEAN-BRAIN
 
+[![🛑 STUPID — READ HERE FIRST](https://img.shields.io/badge/🛑_STUPID-READ_HERE_FIRST-e94560?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/AION-BRAIN/blob/main/GETTING_STARTED.md)
+
+
+---
+
 [![Architect](https://img.shields.io/badge/ARCHITECT-Sheldon_K._Salmon-1a6b9a?style=for-the-badge&labelColor=0d1117)](mailto:aionsystem@outlook.com)
 [![Status](https://img.shields.io/badge/STATUS-ACTIVE_BUILD-0f3460?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/OCEAN-BRAIN)
 [![Brain](https://img.shields.io/badge/BRAIN-RIGHT_HEMISPHERE-1a6b9a?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/AGI)
