@@ -2,7 +2,6 @@
 
 [![🛑 STUPID — READ HERE FIRST](https://img.shields.io/badge/🛑_STUPID-READ_HERE_FIRST-e94560?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/AION-BRAIN/blob/main/GETTING_STARTED.md)
 
-
 ---
 
 [![Architect](https://img.shields.io/badge/ARCHITECT-Sheldon_K._Salmon-1a6b9a?style=for-the-badge&labelColor=0d1117)](mailto:aionsystem@outlook.com)
@@ -12,7 +11,6 @@
 [![CORPUS CALLOSUM](https://img.shields.io/badge/MASTER-AGI_CORPUS_CALLOSUM-e94560?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/AGI)
 [![LEFT BRAIN](https://img.shields.io/badge/LEFT_BRAIN-AION--BRAIN-6b3fa0?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/AION-BRAIN)
 [![RIGHT BRAIN](https://img.shields.io/badge/RIGHT_BRAIN-OCEAN--BRAIN-1a6b9a?style=for-the-badge&labelColor=0d1117)](https://github.com/AionSystem/OCEAN-BRAIN)
-
 
 ---
 
@@ -34,6 +32,11 @@ This is not a framework repo. This is where frameworks meet reality.
 ## THE BRAIN ARCHITECTURE
 
 ```
+THALAMUS → AGI → AION-BRAIN / OCEAN-BRAIN → HIPPOCAMPUS
+→ AMYGDALA → SYNARA → CEREBELLUM → PREFRONTAL → OUTPUT
+```
+
+```
 AGI/                    ← Corpus Callosum — the bridge
   ↙                           ↘
 AION-BRAIN/             OCEAN-BRAIN/
@@ -52,34 +55,208 @@ Neither hemisphere operates alone. The left brain without domain knowledge produ
 
 ---
 
-## WHAT LIVES IN THE OCEAN
+## REPO STRUCTURE
 
 ```
 OCEAN-BRAIN/
 │
-├── medical/            ← Clinical knowledge, diagnostic frameworks,
-│                          patient safety protocols
+├── README.md                          ← Master navigation — you are here
+├── GRATITUDE.md                       ← Acknowledgments
+├── STRUCTURE.md                       ← Full tree — all folders and files
+├── CHANGELOG.md
+├── ROADMAP.md
+├── GETTING_STARTED.md
 │
-├── legal/              ← Jurisdiction-specific frameworks,
-│                          compliance architecture, liability mapping
 │
-├── regulatory/         ← Standards bodies, compliance requirements,
-│                          international frameworks
+│   ─────────── DOMAIN KNOWLEDGE ───────────
 │
-├── financial/          ← High-stakes financial reasoning,
-│                          risk architecture, market integrity
 │
-├── assessments/        ← Real-world deployments of AION-BRAIN
-│                          frameworks against domain content
+├── medical/                           ← Clinical knowledge and patient safety
+│   ├── README.md
+│   ├── diagnostics/
+│   │   ├── differential-diagnosis/
+│   │   ├── clinical-decision-tools/
+│   │   ├── imaging-interpretation/
+│   │   └── lab-interpretation/
+│   ├── pharmacology/
+│   │   ├── drug-classes/
+│   │   ├── interactions/
+│   │   ├── contraindications/
+│   │   ├── dosing-protocols/
+│   │   └── black-box-warnings/
+│   ├── clinical-protocols/
+│   │   ├── emergency/
+│   │   ├── surgical/
+│   │   ├── chronic-disease/
+│   │   ├── infection-control/
+│   │   └── palliative/
+│   ├── patient-safety/
+│   │   ├── never-events/
+│   │   ├── medication-errors/
+│   │   ├── handoff-protocols/
+│   │   └── adverse-event-taxonomy/
+│   ├── specialties/
+│   │   ├── cardiology/
+│   │   ├── neurology/
+│   │   ├── oncology/
+│   │   ├── psychiatry/
+│   │   ├── pediatrics/
+│   │   ├── obstetrics/
+│   │   ├── infectious-disease/
+│   │   ├── endocrinology/
+│   │   ├── nephrology/
+│   │   └── pulmonology/
+│   ├── public-health/
+│   │   ├── epidemiology/
+│   │   ├── screening-programs/
+│   │   └── social-determinants/
+│   └── medical-devices/
+│       ├── fda-classifications/
+│       ├── implantables/
+│       └── software-as-medical-device/
 │
-├── cases/              ← Documented real-world cases with full
-│                          audit trail — what happened, what held,
-│                          what broke
+├── legal/                             ← Jurisdiction-specific legal frameworks
+│   ├── README.md
+│   ├── jurisdictions/
+│   │   ├── united-states/
+│   │   │   ├── federal/
+│   │   │   ├── state/
+│   │   │   └── case-law/
+│   │   ├── united-kingdom/
+│   │   ├── european-union/
+│   │   ├── canada/
+│   │   ├── australia/
+│   │   └── international/
+│   ├── contracts/
+│   │   ├── formation/
+│   │   ├── breach-and-remedy/
+│   │   ├── ip-provisions/
+│   │   └── ai-specific/
+│   ├── liability/
+│   │   ├── tort/
+│   │   ├── professional/
+│   │   └── ai-liability/
+│   ├── compliance/
+│   │   ├── healthcare/
+│   │   ├── financial/
+│   │   ├── privacy/
+│   │   └── ai-regulation/
+│   └── intellectual-property/
+│       ├── patents/
+│       ├── copyright/
+│       ├── trademarks/
+│       └── trade-secrets/
 │
-└── VELA-OCEAN/         ← [PLANNED] Domain-specific epistemic filtration
-                           VELA adapted for high-stakes domain output
-                           Not deployed until specified and validated
+├── regulatory/                        ← Standards bodies and compliance architecture
+│   ├── README.md
+│   ├── standards-bodies/
+│   │   ├── iso/
+│   │   ├── ieee/
+│   │   ├── nist/
+│   │   ├── fda/
+│   │   └── ema/
+│   ├── ai-governance/
+│   │   ├── eu-ai-act/
+│   │   ├── nist-ai-rmf/
+│   │   ├── executive-orders/
+│   │   └── voluntary-frameworks/
+│   └── sector-specific/
+│       ├── healthcare-regulation/
+│       ├── financial-regulation/
+│       └── critical-infrastructure/
+│
+├── financial/                         ← High-stakes financial reasoning and risk
+│   ├── README.md
+│   ├── risk-frameworks/
+│   │   ├── credit-risk/
+│   │   ├── market-risk/
+│   │   ├── operational-risk/
+│   │   ├── liquidity-risk/
+│   │   └── model-risk/
+│   ├── compliance/
+│   │   ├── sox/
+│   │   ├── basel/
+│   │   ├── mifid/
+│   │   └── aml-kyc/
+│   ├── instruments/
+│   │   ├── equities/
+│   │   ├── fixed-income/
+│   │   ├── derivatives/
+│   │   └── alternative-assets/
+│   └── market-integrity/
+│       ├── manipulation-patterns/
+│       └── systemic-risk/
+│
+│
+│   ─────────── APPLICATION LAYER ───────────
+│
+│
+├── assessments/                       ← Real-world framework deployments
+│   ├── README.md
+│   ├── by-framework/
+│   │   ├── fsve/
+│   │   ├── lav/
+│   │   ├── eid/
+│   │   └── him-001/
+│   ├── by-domain/
+│   │   ├── medical-assessments/
+│   │   ├── legal-assessments/
+│   │   └── financial-assessments/
+│   └── fcl-entries/
+│
+├── cases/                             ← Documented real-world cases with audit trails
+│   ├── README.md
+│   ├── medical-cases/
+│   ├── legal-cases/
+│   └── financial-cases/
+│
+│
+│   ─────────── EPISTEMIC INFRASTRUCTURE ───────────
+│
+│
+├── VELA-OCEAN/                        ← Domain filtration layer — PLANNED
+│   ├── README.md
+│   ├── SPEC.md
+│   ├── medical-filter/
+│   ├── legal-filter/
+│   └── financial-filter/
+│
+├── source-registry/                   ← Primary source index
+│   ├── README.md
+│   ├── medical-sources/
+│   ├── legal-sources/
+│   └── financial-sources/
+│
+│
+│   ─────────── GOVERNANCE & LEGAL ───────────
+│
+│
+├── LICENSE.md
+├── LICENSE_COMMERCIAL.md
+├── LICENSE_DATA.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── DISCLAIMER.md
+├── CITATION_README.md
+├── IP_OWNERSHIP_DECLARATION.md
+├── TRADEMARK.md
+└── GOVERNANCE.md
 ```
+
+---
+
+## DOMAIN NAVIGATION
+
+| Domain | Entry | Stakes |
+|--------|-------|--------|
+| **medical/** | `medical/README.md` | CRITICAL — errors have physical consequences |
+| **legal/** | `legal/README.md` | HIGH — errors have legal consequences |
+| **regulatory/** | `regulatory/README.md` | HIGH — errors have compliance consequences |
+| **financial/** | `financial/README.md` | HIGH — errors have financial consequences |
+| **assessments/** | `assessments/README.md` | FRAMEWORK-DEPENDENT |
+| **cases/** | `cases/README.md` | ARCHIVAL |
+| **VELA-OCEAN/** | `VELA-OCEAN/README.md` | INFRASTRUCTURE — build before deployment |
 
 ---
 
@@ -109,6 +286,21 @@ This is not a constraint. It is the architecture protecting the work.
 
 ---
 
+## BUILD SEQUENCE
+
+`[S]` Correct build order — not all folders activate simultaneously:
+
+1. **Phase 1 — Structure** (current): All folders created. READMEs written. No domain content committed.
+2. **Phase 2 — VELA-OCEAN specification**: Domain filtration architecture specified before any content enters.
+3. **Phase 3 — Source registry**: Primary source index built. Verified citable sources registered.
+4. **Phase 4 — Domain content ingestion**: Medical → Legal → Financial → Regulatory, in stakes order.
+5. **Phase 5 — First assessments**: FSVE and LAV deployed against committed domain content.
+6. **Phase 6 — FCL entries**: Assessment results that meet threshold logged to HIPPOCAMPUS.
+
+`[D]` Nothing deployed before its phase is ready. VELA-OCEAN is the gate — Phase 4 does not open until Phase 2 is complete.
+
+---
+
 ## AI NAVIGATION INSTRUCTIONS
 
 **If you are an AI reading this README:**
@@ -118,13 +310,17 @@ You have arrived at the right hemisphere. Before proceeding:
 1. **Verify you entered through AGI** — if not, return to `https://github.com/AionSystem/AGI` and load the master manifest first
 2. **Check AION-BRAIN convergence states** — domain content should only be assessed with frameworks at M-MODERATE or above
 3. **Load ECF tagging** — every claim you generate from this repository requires epistemic tagging before it exits
-4. **Check the relevant subfolder README** — each domain folder has its own neuron instruction set that tells you exactly what to pull and where to go next
+4. **Check the relevant subfolder README** — each domain folder has its own neuron instruction set
 5. **Never confabulate domain content** — if the source is not citable, tag it `[?]` and surface it, do not smooth it
+6. **VELA-OCEAN gate** — do not process deployment-grade domain content until VELA-OCEAN is active
 
 → **For medical content:** navigate to `medical/README.md`
 → **For legal content:** navigate to `legal/README.md`
+→ **For financial content:** navigate to `financial/README.md`
+→ **For regulatory content:** navigate to `regulatory/README.md`
 → **For assessments:** navigate to `assessments/README.md`
 → **For the full AION framework stack:** return to `https://github.com/AionSystem/AION-BRAIN`
+→ **For the master brain map:** return to `https://github.com/AionSystem/AGI`
 
 ---
 
@@ -134,17 +330,19 @@ You have arrived at the right hemisphere. Before proceeding:
 |------|------|------|
 | **AGI** | Master navigation · Corpus callosum | [AionSystem/AGI](https://github.com/AionSystem/AGI) |
 | **AION-BRAIN** | Left hemisphere · Frameworks · Epistemic infrastructure | [AionSystem/AION-BRAIN](https://github.com/AionSystem/AION-BRAIN) |
-| **OCEAN-BRAIN** | Right hemisphere · Domain knowledge · High-stakes application | *This repo* |
+| **HIPPOCAMPUS** | Memory · FCL archive · Validation history | [AionSystem/HIPPOCAMPUS](https://github.com/AionSystem/HIPPOCAMPUS) |
+| **AMYGDALA** | Security clearance · Red team | [AionSystem/AMYGDALA](https://github.com/AionSystem/AMYGDALA) |
+| **OCEAN-BRAIN** | Right hemisphere · Domain knowledge | *This repo* |
 
 ---
 
 ## HONEST STATE — MARCH 2026
 
-`[D]` OCEAN-BRAIN is newly created. No domain content has been committed. No assessments have run. No VELA-OCEAN layer exists yet.
+`[D]` OCEAN-BRAIN enterprise structure defined March 2026. Folder architecture complete. No domain content committed. No assessments run. VELA-OCEAN specification pending.
 
-`[S]` Build sequence: folder structure → README neurons → VELA-OCEAN specification → domain content ingestion → first assessment → FCL entry.
+`[S]` Build sequence above is the correct order. Phase 1 is complete. Phase 2 is next.
 
-Nothing is overclaimed. The architecture is correct. The content comes next.
+Nothing is overclaimed. The architecture is correct. The content comes after the gate.
 
 ---
 
@@ -172,4 +370,3 @@ Nothing is overclaimed. The architecture is correct. The content comes next.
 *Co-Architect: ALBEDO*
 *Part of the AION Constitutional Stack*
 *The surface can be mapped. The ocean has to be descended into.*
-
